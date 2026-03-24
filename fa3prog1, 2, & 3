@@ -1,0 +1,116 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyMCCkkk+2YKe+mEJ/CVLSI6",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/milesisang/cs1-python-EMERALD-MEJOS/blob/main/fa3prog1%2C%202%2C%20%26%203\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "#fa3prog1\n",
+        "name = input(\"enter name: \")\n",
+        "age = input(\"enter age: \")\n",
+        "course = input(\"enter course: \")\n",
+        "print(\"--------student information--------\")\n",
+        "print(\"name:\",name)\n",
+        "print(\"age:\",age)\n",
+        "print(\"course:\",course)\n",
+        "print(\"-----------------------------------\")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "eUi3G-_BIlWg",
+        "outputId": "26386702-1755-4ca6-928a-c9fc77f844df"
+      },
+      "execution_count": 2,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "enter name: pluh\n",
+            "enter age: 1000\n",
+            "enter course: comprog\n",
+            "--------student information--------\n",
+            "name: pluh\n",
+            "age: 1000\n",
+            "course: comprog\n",
+            "-----------------------------------\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "#fa3prog2\n",
+        "score = int(input(\"enter score: \"))\n",
+        "if score <=75:\n",
+        "    print(\"failed\")\n",
+        "else:\n",
+        "    print(\"passed\")"
+      ],
+      "metadata": {
+        "id": "tFPHFjxiKlui"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "#fa3prog3\n",
+        "score = int(input(\"enter score: \"))\n",
+        "if score <=70:\n",
+        "  print(\"F\")\n",
+        "elif score <=80:\n",
+        "  print(\"C\")\n",
+        "elif score <=90:\n",
+        "  print(\"B\")\n",
+        "elif score <=100:\n",
+        "  print(\"A\")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "WIATfjCzL9zh",
+        "outputId": "7fca9d96-ebf5-4ce0-92cd-ce23895aa8c8"
+      },
+      "execution_count": 6,
+      "outputs": [
+        {
+          "name": "stdout",
+          "output_type": "stream",
+          "text": [
+            "enter score: 500\n"
+          ]
+        }
+      ]
+    }
+  ]
+}
