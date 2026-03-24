@@ -4,7 +4,7 @@
   "metadata": {
     "colab": {
       "provenance": [],
-      "authorship_tag": "ABX9TyMCCkkk+2YKe+mEJ/CVLSI6",
+      "authorship_tag": "ABX9TyN61xLrnF0G5lDYELarOepw",
       "include_colab_link": true
     },
     "kernelspec": {
@@ -46,7 +46,7 @@
         "id": "eUi3G-_BIlWg",
         "outputId": "26386702-1755-4ca6-928a-c9fc77f844df"
       },
-      "execution_count": 2,
+      "execution_count": null,
       "outputs": [
         {
           "output_type": "stream",
@@ -84,30 +84,42 @@
       "cell_type": "code",
       "source": [
         "#fa3prog3\n",
+        "name = input(\"enter name: \")\n",
         "score = int(input(\"enter score: \"))\n",
         "if score <=70:\n",
+        "  print(\"name:\",name)\n",
+        "  print(\"score:\",score)\n",
         "  print(\"F\")\n",
         "elif score <=80:\n",
+        "  print(\"name:\",name)\n",
+        "  print(\"score:\",score)\n",
         "  print(\"C\")\n",
         "elif score <=90:\n",
+        "  print(\"name:\",name)\n",
+        "  print(\"score:\",score)\n",
         "  print(\"B\")\n",
         "elif score <=100:\n",
-        "  print(\"A\")"
+        "  print(\"name:\",name)\n",
+        "  print(\"score:\",score)\n",
+        "  print(\"A\")\n"
       ],
       "metadata": {
         "colab": {
           "base_uri": "https://localhost:8080/"
         },
         "id": "WIATfjCzL9zh",
-        "outputId": "7fca9d96-ebf5-4ce0-92cd-ce23895aa8c8"
+        "outputId": "39b20f12-e1c8-4b4e-c987-19b076de60d6"
       },
-      "execution_count": 6,
+      "execution_count": 11,
       "outputs": [
         {
-          "name": "stdout",
           "output_type": "stream",
+          "name": "stdout",
           "text": [
-            "enter score: 500\n"
+            "enter name: me\n",
+            "enter score: 88\n",
+            "name: me\n",
+            "B\n"
           ]
         }
       ]
